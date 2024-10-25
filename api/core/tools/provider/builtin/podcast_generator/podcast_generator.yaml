@@ -23,6 +23,10 @@ credentials_for_provider:
           en_US: OpenAI TTS
           zh_Hans: OpenAI TTS
         value: openai
+      - label:
+          en_US: FishAudio TTS
+          zh_Hans: FishAudio TTS
+        value: fishaudio
   api_key:
     type: secret-input
     required: true
